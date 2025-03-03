@@ -29,11 +29,12 @@ Implementation:
 ```alternativ_reduce.py```: creates a line graph representing hashtag trends over time
 
 Implementation: 
-
-```python3 ./src/visualize.py --input_path=outputs/combined.countryry --key "#코로나바이러스"
+```
+python3 ./src/visualize.py --input_path=outputs/combined.countryry --key "#코로나바이러스"
 python3 ./src/visualize.py --input_path=outputs/combined.lang --key "#코로나바이러스"
 python3 ./src/visualize.py --input_path=outputs/combined.lang --key "#coronavirus"
-python3 ./src/visualize.py --input_path=outputs/combined.countryry --key "#coronavirus"```
+python3 ./src/visualize.py --input_path=outputs/combined.countryry --key "#coronavirus"
+```
 
 ```python3 src/alternative_reduce.py --input_paths outputs/geoTwitter20-*-*.zip.lang --keys '#coronavirus' '#covid19' --output_path img/alternative-reduce.png```
 

@@ -25,3 +25,9 @@ Extracted outputs from hashtags : .country and .lang files
 ## Final Product
 
 **Count of #coronavirus by language**
+![Count of #coronavirus by language] (visualizations/combined.countryry#coronavirus.png)
+
+**Count of #coronavirus by country**
+![Count of #coronavirus by country] (visualizations/combined.lang#coronavirus.png)
+
+**Count of #

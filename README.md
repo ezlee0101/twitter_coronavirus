@@ -30,10 +30,10 @@ Implementation:
 
 Implementation: 
 
-```python3 ./src/visualize.py --input_path=outputs/combined.countryry --key "#코로나바이러스"```
-```python3 ./src/visualize.py --input_path=outputs/combined.lang --key "#코로나바이러스"```
-```python3 ./src/visualize.py --input_path=outputs/combined.lang --key "#coronavirus"```
-```python3 ./src/visualize.py --input_path=outputs/combined.countryry --key "#coronavirus"```
+```python3 ./src/visualize.py --input_path=outputs/combined.countryry --key "#코로나바이러스"
+python3 ./src/visualize.py --input_path=outputs/combined.lang --key "#코로나바이러스"
+python3 ./src/visualize.py --input_path=outputs/combined.lang --key "#coronavirus"
+python3 ./src/visualize.py --input_path=outputs/combined.countryry --key "#coronavirus"```
 
 ```python3 src/alternative_reduce.py --input_paths outputs/geoTwitter20-*-*.zip.lang --keys '#coronavirus' '#covid19' --output_path img/alternative-reduce.png```
 
@@ -42,14 +42,14 @@ Implementation:
 ## Final Product
 
 **Count of #coronavirus by language**
-![Count of #coronavirus by language] (visualizations/combined.countryry#coronavirus.png)
+![Count of #coronavirus by language](visualizations/combined.countryry#coronavirus.png)
 
 **Count of #coronavirus by country**
-![Count of #coronavirus by country] (visualizations/combined.lang#coronavirus.png)
+![Count of #coronavirus by country](visualizations/combined.lang#coronavirus.png)
 
 **Count of #코로나바이러스 by language**
-![Count of #coronavirus by language] (visualizations/combined.countryry#코로나바이러스.png)
+![Count of #coronavirus by language](visualizations/combined.countryry#코로나바이러스.png)
 
 **Count of #코로나바이러스 by country**
-![Count of #coronavirus by country] (visualizations/combined.lang#코로나바이러스.png)
+![Count of #coronavirus by country](visualizations/combined.lang#코로나바이러스.png)
 

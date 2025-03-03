@@ -49,17 +49,21 @@ python3 src/alternative_reduce.py --input_paths outputs/geoTwitter20-*-*.zip.lan
 ## Final Product
 
 Count of #coronavirus by language
+
 ![Count of #coronavirus by language](./visualizations/combined.lang%23coronavirus.png)
 
 Count of #coronavirus by country
+
 ![Count of #coronavirus by country](./visualizations/combined.countryry%23coronavirus.png)
 
 Count of #코로나바이러스 by language
+
 ![Count of #coronavirus by language](./visualizations/combined.lang%23코로나바이러스.png)
 
 Count of #코로나바이러스 by country
+
 ![Count of #coronavirus by country](./visualizations/combined.lang%23코로나바이러스.png)
 
 Hashtag Trends in 2020
-![Hashtag Trends of 2020](./visualize/alternative-reduce.png)
+![Hashtag Trends of 2020](./visualizations/alternative-reduce.png)
 

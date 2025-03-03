@@ -42,15 +42,15 @@ python3 ./src/visualize.py --input_path=outputs/combined.countryry --key "#coron
 
 ## Final Product
 
-**Count of #coronavirus by language**
-![Count of #coronavirus by language](visualizations/combined.countryry#coronavirus.png)
+Count of #coronavirus by language
+![Count of #coronavirus by language](img/combined.countryry#coronavirus.png)
 
-**Count of #coronavirus by country**
-![Count of #coronavirus by country](visualizations/combined.lang#coronavirus.png)
+Count of #coronavirus by country
+![Count of #coronavirus by country](img/combined.lang#coronavirus.png)
 
-**Count of #코로나바이러스 by language**
-![Count of #coronavirus by language](visualizations/combined.countryry#코로나바이러스.png)
+Count of #코로나바이러스 by language
+![Count of #coronavirus by language](img/combined.countryry#코로나바이러스.png)
 
-**Count of #코로나바이러스 by country**
-![Count of #coronavirus by country](visualizations/combined.lang#코로나바이러스.png)
+Count of #코로나바이러스 by country
+![Count of #coronavirus by country](img/combined.lang#코로나바이러스.png)
 

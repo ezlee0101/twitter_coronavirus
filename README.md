@@ -46,7 +46,7 @@ Count of #coronavirus by language
 ![Count of #coronavirus by language](img/combined.countryry#coronavirus.png)
 
 Count of #coronavirus by country
-![Count of #coronavirus by country](img/combined.lang#coronavirus.png)
+![Count of #coronavirus by country](visualizations/combined.countryry#coronavirus.png)
 
 Count of #코로나바이러스 by language
 ![Count of #coronavirus by language](img/combined.countryry#코로나바이러스.png)

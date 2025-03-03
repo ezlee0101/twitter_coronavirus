@@ -49,7 +49,7 @@ python3 src/alternative_reduce.py --input_paths outputs/geoTwitter20-*-*.zip.lan
 ## Final Product
 
 Count of #coronavirus by language
-<img src="combined.countryry%23coronavirus.png />
+<img src="combined.countryry%23coronavirus.png" />
 
 Count of #coronavirus by country
 ![Count of #coronavirus by country](visualizations/combined.countryry#coronavirus.png)

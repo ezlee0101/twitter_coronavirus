@@ -16,13 +16,17 @@ Extracted outputs from hashtags : .country and .lang files
 
 Implementation: I created a shell script  ```run_map.sh``` which collected tweets from files of each dataset and runs ```map.py``` on that file, in addition to using ```reduce.py ``` to combine the outputs.
 
-```sh run_maps.sh &```
+```
+sh run_maps.sh &
+```
 
 ### 2. Reduce
 ```reduce.py``: takes these intermediate outputs and aggregates them
 
 Implementation:
-```$ python reduce.py --input_paths output_folder/geoTwitter*.lang --output_path=reduced.lang```
+```
+$ python reduce.py --input_paths output_folder/geoTwitter*.lang --output_path=reduced.lang
+```
 
 ### 3. Visualize
 ```visualize.py```: creates bar graphs and determines whether the visualization is for countries or languages based on the key
@@ -36,14 +40,16 @@ python3 ./src/visualize.py --input_path=outputs/combined.lang --key "#coronaviru
 python3 ./src/visualize.py --input_path=outputs/combined.countryry --key "#coronavirus"
 ```
 
-```python3 src/alternative_reduce.py --input_paths outputs/geoTwitter20-*-*.zip.lang --keys '#coronavirus' '#covid19' --output_path img/alternative-reduce.png```
+```
+python3 src/alternative_reduce.py --input_paths outputs/geoTwitter20-*-*.zip.lang --keys '#coronavirus' '#covid19' --output_path img/alternative-reduce.png
+```
 
 
 
 ## Final Product
 
 Count of #coronavirus by language
-![Count of #coronavirus by language](img/combined.countryry#coronavirus.png)
+<img src="combined.countryry%23coronavirus.png />
 
 Count of #coronavirus by country
 ![Count of #coronavirus by country](visualizations/combined.countryry#coronavirus.png)
